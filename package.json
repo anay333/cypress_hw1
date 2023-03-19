@@ -1,0 +1,17 @@
+{
+  "name": "cypress1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "testfirefox": "npx cypress run -b firefox --headed -C cypress.env.json",
+    "testfirefoxheadless": "npx cypress run -b firefox",
+    "testedge": "npx cypress run -b edge --headed -C cypress.json",
+    "testedgeheadless": "npx cypress run -b edge"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.5.2"
+  }
+}
